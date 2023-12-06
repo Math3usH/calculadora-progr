@@ -15,36 +15,37 @@
     <div class="container">
         <div class="tabela">
             <div>
-            <input type="text" id="display1" name="display1" disabled>
-            <input type="text" id="display" name="display" disabled></div>
+                <input type="text" id="display1" name="display1" disabled>
+                <input type="text" id="display" name="display" disabled>
+            </div>
             <table>
-        
+
                 <tr>
-                    <td><input type="button" value="7" onclick="addToDisplay('7')"></td>
-                    <td><input type="button" value="8" onclick="addToDisplay('8')"></td>
-                    <td><input type="button" value="9" onclick="addToDisplay('9')"></td>
-                    <td><input type="button" value="/" onclick="addToDisplay('/')"></td>
+                    <td><input type="button" value="7" onclick="adicionarAoDisplay('7')"></td>
+                    <td><input type="button" value="8" onclick="adicionarAoDisplay('8')"></td>
+                    <td><input type="button" value="9" onclick="adicionarAoDisplay('9')"></td>
+                    <td><input type="button" value="/" onclick="adicionarAoDisplay('/')"></td>
                 </tr>
                 <tr>
-                    <td><input type="button" value="4" onclick="addToDisplay('4')"></td>
-                    <td><input type="button" value="5" onclick="addToDisplay('5')"></td>
-                    <td><input type="button" value="6" onclick="addToDisplay('6')"></td>
-                    <td><input type="button" value="*" onclick="addToDisplay('*')"></td>
+                    <td><input type="button" value="4" onclick="adicionarAoDisplay('4')"></td>
+                    <td><input type="button" value="5" onclick="adicionarAoDisplay('5')"></td>
+                    <td><input type="button" value="6" onclick="adicionarAoDisplay('6')"></td>
+                    <td><input type="button" value="*" onclick="adicionarAoDisplay('*')"></td>
                 </tr>
                 <tr>
-                    <td><input type="button" value="1" onclick="addToDisplay('1')"></td>
-                    <td><input type="button" value="2" onclick="addToDisplay('2')"></td>
-                    <td><input type="button" value="3" onclick="addToDisplay('3')"></td>
-                    <td><input type="button" value="-" onclick="addToDisplay('-')"></td>
+                    <td><input type="button" value="1" onclick="adicionarAoDisplay('1')"></td>
+                    <td><input type="button" value="2" onclick="adicionarAoDisplay('2')"></td>
+                    <td><input type="button" value="3" onclick="adicionarAoDisplay('3')"></td>
+                    <td><input type="button" value="-" onclick="adicionarAoDisplay('-')"></td>
                 </tr>
                 <tr>
-                    <td><input type="button" value="0" onclick="addToDisplay('0')"></td>
-                    <td><input type="button" value="." onclick="addToDisplay('.')"></td>
-                    <td><input type="button" value="=" onclick="calculate()"></td>
-                    <td><input type="button" value="+" onclick="addToDisplay('+')"></td>
+                    <td><input type="button" value="0" onclick="adicionarAoDisplay('0')"></td>
+                    <td><input type="button" value="." onclick="adicionarAoDisplay('.')"></td>
+                    <td><input type="button" value="=" onclick="calcular()"></td>
+                    <td><input type="button" value="+" onclick="adicionarAoDisplay('+')"></td>
                 </tr>
                 <tr>
-                    <td colspan="4"><input type="button" value="C" onclick="clearDisplay()"></td>
+                    <td colspan="4"><input type="button" value="C" onclick="limparDisplay()"></td>
                 </tr>
             </table>
         </div>
@@ -53,7 +54,7 @@
     <footer>
         <p>&copy; Matheus Henrique</p>
         <p>Para papai / LDM Fabio</p>
-      </footer> 
+    </footer>
 
 </body>
 <script src="script.js"></script>

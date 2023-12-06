@@ -1,21 +1,21 @@
 // Função para adicionar valor ao display
-function addToDisplay(value) {
-    //let contento = document.getElementById('display').value.toString()+value.toString();
-    document.getElementById('display').value += value;
-     //document.getElementById('display').value = contento;
-
+function adicionarAoDisplay(value) {;
+    //Função serve para adicionar valores ao campo de exibição da calculadora sempre que um botão numérico ou operador for pressionado
+     document.getElementById('display').value += value; 
 }
 
 // Função para calcular o resultado
-function calculate  () {
+function calcular() {
     let display = document.getElementById('display');
     let resultado = eval(display.value); // Usando eval para calcular a expressão inserida
-    document.getElementById('display1').value = display.value + "="+resultado;
+    // histórico do resultado
+    document.getElementById('display1').value = display.value + "=" + resultado;
     display.value = resultado;
-
 }
 
+
+
 // Função para limpar o display
-function clearDisplay() {
+function limparDisplay() {
     document.getElementById('display').value = '';
 }
