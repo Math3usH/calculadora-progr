@@ -17,13 +17,22 @@ input[type="button"] {
 }
 
 /* "tela da calculadora" */
-#display {
+div.tabela div {
     border: 1px solid #a0a0a0;
     border-radius: 4px;
-    width: 347px;
-    height: 45px;
 }
-
+#display {
+    font-size: x-large;
+    border: none;
+    width: 96%;
+    height: 10px;
+}
+ #display1{
+    border: none;
+    width: 96%;
+    height: 10px;
+    display: block;
+}
 /* Estilos para a calculadora */
 .container {
     display: flex;
