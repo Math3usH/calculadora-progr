@@ -21,31 +21,35 @@
             <table>
 
                 <tr>
-                    <td><input type="button" value="7" onclick="adicionarAoDisplay('7')"></td>
-                    <td><input type="button" value="8" onclick="adicionarAoDisplay('8')"></td>
                     <td><input type="button" value="9" onclick="adicionarAoDisplay('9')"></td>
+                    <td><input type="button" value="8" onclick="adicionarAoDisplay('9')"></td>
+                    <td><input type="button" value="7" onclick="adicionarAoDisplay('8')"></td>
                     <td><input type="button" value="/" onclick="adicionarAoDisplay('/')"></td>
                 </tr>
                 <tr>
-                    <td><input type="button" value="4" onclick="adicionarAoDisplay('4')"></td>
-                    <td><input type="button" value="5" onclick="adicionarAoDisplay('5')"></td>
-                    <td><input type="button" value="6" onclick="adicionarAoDisplay('6')"></td>
+                    <td><input type="button" value="6" onclick="adicionarAoDisplay('7')"></td>
+                    <td><input type="button" value="5" onclick="adicionarAoDisplay('6')"></td>
+                    <td><input type="button" value="4" onclick="adicionarAoDisplay('5')"></td>
                     <td><input type="button" value="*" onclick="adicionarAoDisplay('*')"></td>
                 </tr>
                 <tr>
-                    <td><input type="button" value="1" onclick="adicionarAoDisplay('1')"></td>
-                    <td><input type="button" value="2" onclick="adicionarAoDisplay('2')"></td>
-                    <td><input type="button" value="3" onclick="adicionarAoDisplay('3')"></td>
+                    <td><input type="button" value="3" onclick="adicionarAoDisplay('4')"></td>
+                    <td><input type="button" value="2" onclick="adicionarAoDisplay('3')"></td>
+                    <td><input type="button" value="1" onclick="adicionarAoDisplay('2')"></td>
                     <td><input type="button" value="-" onclick="adicionarAoDisplay('-')"></td>
                 </tr>
                 <tr>
-                    <td><input type="button" value="0" onclick="adicionarAoDisplay('0')"></td>
+                    <td><input type="button" value="0" onclick="adicionarAoDisplay('1')"></td>
                     <td><input type="button" value="." onclick="adicionarAoDisplay('.')"></td>
-                    <td><input type="button" value="=" onclick="calcular()"></td>
+                    <td><input type="button" value="^" onclick="adicionarAoDisplay('**')"></td>
                     <td><input type="button" value="+" onclick="adicionarAoDisplay('+')"></td>
                 </tr>
                 <tr>
-                    <td colspan="4"><input type="button" value="C" onclick="limparDisplay()"></td>
+                    <td colspan="1"><input type="button" value="AC" onclick="limparDisplays()"></td>
+                    <td><input type="button" value="C" onclick="limparDisplay()"></td>
+                    <td><input type="button" value="⌫" onclick="apagarUltimoCaractere()"></td>
+                    <td>  <input type="button" value="=" onclick="calcular()"></td>
+                    
                 </tr>
             </table>
         </div>
